@@ -7,10 +7,10 @@
 # - 7 -> да
 # - 1 -> нет
 
-DayOfTheWeek = int(input('Введите число, обозначающее день недели: '))
-if DayOfTheWeek == 6 or DayOfTheWeek == 7:
+dayOfTheWeek = int(input('Введите число, обозначающее день недели: '))
+if dayOfTheWeek == 6 or dayOfTheWeek == 7:
     print("Выходной")
-elif 0 < DayOfTheWeek < 6:
+elif 0 < dayOfTheWeek < 6:
     print('Будний день')
 else:
     print('Введённое число не является днём недели')
