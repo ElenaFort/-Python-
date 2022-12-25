@@ -20,7 +20,7 @@ poz_two = int(input('Введите номер второй позиции: '))
 for k in range(- n, n + 1):
     num_list.append(k)
 print(num_list)
-if poz_one < len(num_list) > poz_two:
+if poz_one < len(num_list) >= poz_two:
     composition = num_list[poz_one - 1] * num_list[poz_two - 1]
     print(composition)
 else:
