@@ -24,5 +24,4 @@ def fibonacci(n):
     print(*fibo)
 
 
-n = int(input('Введите длину ряда: '))
-fibonacci(n)
+fibonacci(int(input('Введите длину ряда: ')))
