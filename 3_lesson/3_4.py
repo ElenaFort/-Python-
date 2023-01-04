@@ -22,8 +22,7 @@ def num_find(len_list):
 
 
 def difference(num_list):
-    max_num = num_list[0] % 1
-    min_num = num_list[0] % 1
+    max_num = min_num = num_list[0] % 1
     for i in num_list:
         temp = i % 1
         if temp > max_num:
