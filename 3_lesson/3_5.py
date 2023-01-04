@@ -16,7 +16,7 @@ def fibonacci(n):
     f0, f1 = 0, 1
     for i in range(n + 1):
         fibo.append(f0)
-        f0, f1 = f1, f0 + f1  # f1 приравнивается к f2, f2 приравнивается к f1 + f2
+        f0, f1 = f1, f0 + f1 
     f0, f1 = 0, 1
     for i in range(n):
         f0, f1 = f1, f0 - f1
