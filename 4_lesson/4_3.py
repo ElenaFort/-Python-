@@ -41,5 +41,7 @@ def get_unique_numbers(numbers):
             unique.append(i)
     return unique
 
-numbers = num_find(int(input("Введите количество элементов начального списка: ")))
+
+numbers = num_find(
+    int(input("Введите количество элементов начального списка: ")))
 print(get_unique_numbers(numbers))
